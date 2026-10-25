@@ -1,0 +1,23 @@
+# Windows / editor noise
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.user
+*.suo
+*.tmp
+*.bak
+*.log
+
+# Local installer/test output
+*.new
+*.part
+TestResults/
+coverage/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+secrets.*
+*.pfx
+*.p12

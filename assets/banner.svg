@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="440" viewBox="0 0 1600 440" role="img" aria-labelledby="title desc">
+  <title id="title">OpenCode CLI Setup</title>
+  <desc id="desc">Dark navy and teal banner for a Windows OpenCode CLI installer.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07111F"/><stop offset="0.58" stop-color="#10243A"/><stop offset="1" stop-color="#0B3A3B"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5EEAD4"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#9CC4D8" stroke-opacity=".08" stroke-width="1"/></pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="20"/></filter>
+  </defs>
+  <rect width="1600" height="440" rx="28" fill="url(#bg)"/><rect width="1600" height="440" rx="28" fill="url(#grid)"/>
+  <circle cx="1340" cy="95" r="170" fill="#2DD4BF" opacity=".10" filter="url(#glow)"/>
+  <circle cx="1460" cy="370" r="190" fill="#38BDF8" opacity=".08" filter="url(#glow)"/>
+  <g transform="translate(120 104)">
+    <rect width="176" height="176" rx="34" fill="#0D1B2B" stroke="#5EEAD4" stroke-opacity=".65" stroke-width="2"/>
+    <path d="M42 52L72 88 42 124" fill="none" stroke="url(#accent)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M88 126H132" fill="none" stroke="#E2F7F5" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="135" cy="48" r="7" fill="#5EEAD4"/><circle cx="154" cy="48" r="7" fill="#38BDF8"/>
+  </g>
+  <text x="350" y="166" fill="#E6F6FF" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1">OpenCode CLI Setup</text>
+  <text x="354" y="220" fill="#A9C4D8" font-family="Segoe UI, Arial, sans-serif" font-size="26">Install · Update · Detect · Uninstall</text>
+  <rect x="354" y="258" width="210" height="42" rx="21" fill="#123B43" stroke="#5EEAD4" stroke-opacity=".55"/>
+  <text x="459" y="285" text-anchor="middle" fill="#99F6E4" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">WINDOWS x64</text>
+  <rect x="580" y="258" width="220" height="42" rx="21" fill="#162D45" stroke="#60A5FA" stroke-opacity=".55"/>
+  <text x="690" y="285" text-anchor="middle" fill="#BFDBFE" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600">POWERSHELL 5.1+</text>
+  <text x="354" y="355" fill="#7898AE" font-family="Segoe UI, Arial, sans-serif" font-size="18">An independent community utility by Mohamed Abd El-Hafez</text>
+  <g transform="translate(1260 145)" opacity=".72" fill="none" stroke="#5EEAD4" stroke-width="2">
+    <path d="M0 0h170v150H0z" stroke-opacity=".25"/><path d="M22 28h126M22 52h92M22 76h110M22 100h72" stroke-linecap="round" stroke-opacity=".65"/>
+    <path d="M-28 18l-20 20 20 20M172 105l20 20-20 20" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
